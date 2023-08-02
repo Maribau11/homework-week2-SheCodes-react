@@ -1,0 +1,84 @@
+:root{
+    --button-background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+    --img-background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 28.1%, rgba(221, 221, 221, 0.15) 100.7%)
+    --textColour: grey;
+    --linkColour: #fc0fc0;
+    --text-bg: rgb(250, 190, 223);
+}
+body{
+    text-align: center;
+    margin:60px auto;
+}
+h1{
+    font-size: 70px;
+    font-family: 'Lugrasimo', cursive;
+    color: var(--linkColour);
+}
+h2{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2, h3{
+    padding-bottom: 0px;
+    margin: 0;
+}
+a:hover{
+    background: white;
+    color: var(--linkColour);
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+hr{
+    line-height: 2px;
+    color: var(--linkColour);
+    border: none;
+}
+.content{
+    display: flex;
+}
+.content span{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 15px;
+    background: var(--text-bg);
+    color: var(--textColour);
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-style{
+  margin: 20px;
+  border-radius: 4px;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--button-background);
+}
+.btn-style:hover{
+    background: transparent;
+    color: var(--textColour)
+}
+.text-pink{
+    color: var(--linkColour);
+
+}
+.center-pic{
+    display: block;
+    margin: 0 auto;
+}
+bg-img{
+    background: var(--img-background);
+}
+
+.bg-text{
+    background: var(--text-bg);
+}
